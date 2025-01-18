@@ -1,4 +1,4 @@
-// Hotel prices and amenities data
+
 const hotelPrices = {
     'Grand Palace': '$120',
     'Royal Orchid Suites': '$95',
@@ -25,7 +25,7 @@ function createHotelCards() {
         const hotelCard = document.createElement('div');
         hotelCard.classList.add('hotel-card');
 
-        // Create hotel image (use placeholder for now)
+        // Create hotel image
         const hotelImage = document.createElement('img');
         hotelImage.src = hotelImages[hotelName];
         hotelImage.alt = hotelName;
@@ -54,7 +54,6 @@ function createHotelCards() {
     });
 }
 
-// Call the function to generate hotel cards
 document.addEventListener('DOMContentLoaded', function() {
     createHotelCards(); // This will run after the DOM is fully loaded
 });
@@ -62,7 +61,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function bookNow(hotelName) {
     alert(`Booking ${hotelName}...`);
-    // Add redirection or additional booking logic here
 }
 
 // Redirect to booking page from hotel list page
@@ -78,7 +76,7 @@ function redirectToHotel(hotelName) {
         amenities: hotelAmenities[hotelName]
     }));
 
-    window.location.href = 'hotel-details.html'; // Redirect to the hotel details page
+    window.location.href = 'hotel-details.html';
 }
 
 // Load hotel details and amenities on the booking page
@@ -108,7 +106,7 @@ if (window.location.pathname.includes('hotel-details.html')) {
     });
 }
 
-// Book the room function
+// Book Romm
 function bookRoom() {
     // Get hotel details
     const hotelName = document.getElementById('hotel-name')?.textContent;

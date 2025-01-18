@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,12 +13,12 @@ body {
 }
 
 h1, h2, h3 {
-    font-weight: 600;  /* Make headings bolder for contrast */
+    font-weight: 600;
 }
 
 p {
-    font-weight: 400;  /* Regular weight for paragraphs */
-    line-height: 1.6;  /* Improve text flow */
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 /* Header */
@@ -123,7 +123,7 @@ p {
 /* About Section */
 .about-section {
     padding: 60px 20px;
-    background-color: #f8f8f8; /* Light background for contrast */
+    background-color: #f8f8f8;
     color: #333;
     text-align: center;
 }
@@ -301,15 +301,15 @@ p {
 .hotel-info {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Space between the left and right sections */
+    gap: 20px;
 }
 
 .left-side {
-    flex: 1; /* Takes up the available space on the left */
+    flex: 1;
 }
 
 .hotel-image {
-    width: 100%; /* Makes the image responsive */
+    width: 100%;
     height: auto;
 }
 
@@ -318,10 +318,10 @@ p {
 }
 
 .right-side {
-    flex: 0 0 250px; /* Fixed width for the right side section */
+    flex: 0 0 250px;
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Space between date fields */
+    gap: 10px;
 }
 
 .right-side label {
@@ -458,11 +458,11 @@ p {
 }
 
 .availability.available {
-    background-color: #27ae60; /* Green for available */
+    background-color: #27ae60;
 }
 
 .availability.not-available {
-    background-color: #e74c3c; /* Red for not available */
+    background-color: #e74c3c;
 }
 
 /* Booking Form */
