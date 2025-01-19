@@ -31,10 +31,12 @@ p {
     color: white;
 }
 
+/* Hotel logo */
 .logo img {
     max-height: 50px;
 }
 
+/* Navbar */
 .navbar ul {
     list-style: none;
     display: flex;
