@@ -55,7 +55,7 @@ function createHotelCards() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    createHotelCards(); // This will run after the DOM is fully loaded
+    createHotelCards();
 });
 
 
@@ -131,7 +131,7 @@ function bookRoom() {
 
     // Confirm booking
     alert(`Your room at ${hotelName} has been successfully booked for ${hotelPrice}.`);
-    window.location.href = 'confirmation.html'; // Redirect after booking
+    window.location.href = 'confirmation.html';
 }
 
 // Update room availability
@@ -165,7 +165,7 @@ function searchHotels() {
     }));
 
     // Redirect to a search results or booking page
-    window.location.href = 'results.html'; // Replace with your actual page
+    window.location.href = 'results.html';
 }
 
 // Display booking details on the confirmation page
@@ -192,5 +192,5 @@ if (window.location.pathname.includes('confirmation.html')) {
 
 // Redirect to the home page after booking
 function goHome() {
-    window.location.href = 'index.html'; // Redirect to home page after confirming the booking
+    window.location.href = 'index.html';
 }
