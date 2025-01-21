@@ -142,7 +142,7 @@ function updateRoomAvailability(isAvailable) {
         availabilityElement.className = `availability ${isAvailable ? 'available' : 'not-available'}`;
     }
 }
-
+-
 // Function to handle the search process
 function searchHotels() {
     const checkInDate = document.getElementById('check-in')?.value;
